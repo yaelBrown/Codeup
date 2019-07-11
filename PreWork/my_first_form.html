@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My First HTML Form</title>
+  </head>
+  <body>
+    <!-- User Login -->
+    <h2>User Login</h2>
+    <form method="POST" action="http://request-inspector.glitch.me/">
+      <div>
+        <label for="username">Username</label>
+        <input id="username" name="username" type="text" placeholder="Username">
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" placeholder="Password">
+      </div>
+      <div>
+        <input type="submit">
+      </div>
+    </form>
+
+    <!-- Compose an Email -->
+    <h2>Compose an Email</h2>
+    <form method="POST" action="http://request-inspector.glitch.me/">
+      <div>
+        <label for="emailTo">To: </label>
+        <input id="emailTo" name="emailTo" type="text" placeholder="email@address.com">
+      </div>
+      <div>
+        <label for="emailFrom">From: </label>
+        <input id="emailFrom" name="emailFrom" type="text" placeholder="email@address.com">
+      </div>
+      <div>
+        <label for="body">Body: </label>
+        <input id="body" name="body" type="textarea" placeholder="Email Body Text goes here.">
+      </div>
+      <div>
+        <label for="saveToSent">Save to Sent Folder </label>
+        <input type="checkbox" id="saveToSent" name="saveToSent" value="yes">
+      </div>
+      <div>
+        <input type="submit">
+      </div>
+    </form>
+
+    <!-- Multiple Choice Test -->
+    <form method="POST" action="http://request-inspector.glitch.me">
+      <h2>Multiple Choice Test</h2>
+      <div>
+        <p>
+          What is Yael's favorite color?
+          <label>
+            <input for="q1" type="radio" value="cerulean">Cerulean</input>
+          </label>
+          <label>
+            <input for="q1" type="radio" value="crimsonRed">Crimson Red</input>
+          </label>
+          <label>
+            <input for="q1" type="radio" value="hollywoodCerise">Hollywood Cerise</input>
+          </label>
+        </p>
+      </div>
+      <div>
+        <p>
+          What is Yael's favorite food?
+          <label>
+            <input for="q2" type="radio" value="tacos">Tacos</input>
+          </label>
+          <label>
+            <input for="q2" type="radio" value="brownies">Brownies</input>
+          </label>
+          <label>
+            <input for="q2" type="radio" value="steaks">Steaks</input>
+          </label>
+        </p>
+      </div>
+    </form>
+
+    <!-- Select Testing -->
+    <form method="POST" action="http://request-inspector.glitch.me">
+      <label for="amazing">Do you think Yael is amazing? : </label>
+      <select id="amazing" name="amazing">
+        <option value="1" selected>Yes</option>
+        <option value="0">No</option>
+      </select>
+    </form>
+
+
+
+
+  </body>
+</html>

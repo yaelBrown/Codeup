@@ -1,0 +1,50 @@
+.box {
+  position: relative;
+  border: 1px solid black;
+  width: 72px;
+  height: 72px;
+  padding: 12px;
+  margin-right: 50px;
+  margin-top: 50px;
+  color: white;
+  font-weight: 800;
+  float: left;
+}
+
+h2 {
+  margin-bottom: 100px;
+}
+
+.clearLeft {
+  clear: left;
+}
+
+.codeupArrow {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.pink {
+  background-color: pink;
+}
