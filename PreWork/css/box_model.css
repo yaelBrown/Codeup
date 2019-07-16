@@ -1,0 +1,49 @@
+.box {
+  border: 1px solid black;
+  width: 172px;
+  height: 72px;
+  padding: 12px;
+  color: white;
+  font-weight: 600;
+}
+
+.orange {
+  position: relative;
+  left: 30px;
+  background-color: orange;
+  margin-top: 10px;
+}
+
+.red {
+  position: relative;
+  left: 0px;
+  background-color: red;
+}
+
+.yellow {
+  position: relative;
+  left: 60px;
+  background-color: yellow;
+  margin-top: 10px;
+}
+
+.green {
+  position: relative;
+  left: 90px;
+  background-color: green;
+  margin-top: 10px;
+}
+
+.blue {
+  position: relative;
+  left: 120px;
+  background-color: blue;
+  margin-top: 10px;
+}
+
+.pink {
+  position: relative;
+  left: 150px;
+  background-color: pink;
+  margin-top: 10px;
+}

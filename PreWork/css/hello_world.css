@@ -1,0 +1,40 @@
+/*
+  Hello_world.css
+*/
+
+body {
+  background-color: gray;
+  background-image: url("../img/bluewall.jpg");
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  background-color: blue;
+  color: white;
+}
+
+li {
+  list-style: circle;
+}
+
+td {
+  border-spacing: 1em;
+}
+
+tr {
+  padding: .5em;
+  text-align: center;
+}
+
+a:link {
+  background-color: gold;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: white;
+}
