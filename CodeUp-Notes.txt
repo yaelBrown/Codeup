@@ -1,0 +1,65 @@
+Code Notes
+
+These are the links to book us for one on one meetings. Try to book meetings first with Terrell or your current instructors. Come prepared with your questions and (or) code!
+
+  Terrell: https://app.hubspot.com/meetings/terrell4
+  Justin: https://app.hubspot.com/meetings/justin105
+  David: https://app.hubspot.com/meetings/david875
+  Sophie: https://app.hubspot.com/meetings/sophie61
+  Daniel: https://app.hubspot.com/meetings/daniel175
+  Fernando: https://app.hubspot.com/meetings/fernando19
+
+Pair up with your neighbor and take turns interviewing each other with the following questions:
+
+  What draws you to coding and web development as a career?
+  What are your greatest strengths? Weaknesses?
+  How has your background helped prepare you for web development (technical and non-technical)?
+  Describe your dream job in web development.
+  What technologies interest you, web development/coding-related, and otherwise?
+  What blogs and other news sites do you go to to get the latest info on technology?
+
+Mac
+  shift+LArrow/RArrow - Highlights individual character
+  shift+option - Highlights words
+  BetterSnapTool - Snap windows to parts of the screen (like on windows).
+
+Terminal
+  rm -rf - Removes directories and files without prompt
+  Customize Terminal - https://www.maketecheasier.com/remove-user-hostname-terminal-prompt/
+
+GIT
+  VCS - Version Control System
+  Repository - Folder that we designated for git.
+  Commits - Snapshots of time.
+
+  check git username and email
+    git config --get user.name
+    git config --get user.email
+  Set the global configuration if needed
+    git config --global user.name "Yael Brown"
+    git config --global user.email email@email.com
+
+  init a git repository in current directory
+    git init
+  add files into staging area
+    git add
+  check status of files
+    git status
+  remove files from cached
+    git rm --cached
+  remove files from staged
+    git rm --cached [filename.file]
+  show log of changes
+    git log
+  write commit message
+    git commit -m "My commit message"
+  add url to github
+    git remote add origin https://url/repository.git
+  push changes to github
+    git push -u origin master
+
+HTML
+  Semantics is the study of the meanings of words and phrases in a language.
+  Semantic elements = elements with a meaning.
+    Examples: <form>, <table>, and <article>
+    Non-Examples: <div> and <span>

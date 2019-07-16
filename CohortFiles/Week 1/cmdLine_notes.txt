@@ -1,0 +1,7 @@
+cmd line
+
+  touch .hidden
+    creates a hidden file in current directory named ".hidden"
+
+  ls -a 
+    allows you to see hidden file
