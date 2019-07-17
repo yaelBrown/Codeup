@@ -18,19 +18,32 @@ Pair up with your neighbor and take turns interviewing each other with the follo
   What technologies interest you, web development/coding-related, and otherwise?
   What blogs and other news sites do you go to to get the latest info on technology?
 
+Sohpies html/css/js analogy
+  HTML is the structure of the house. 
+  CSS is the design of the house (color of walls, where furniture is placed)
+  Javascript is what you can do in the house (open windows, close doors)
+
 Mac
   shift+LArrow/RArrow - Highlights individual character
   shift+option - Highlights words
   BetterSnapTool - Snap windows to parts of the screen (like on windows).
+
+Chrome
+  cmd+shift+r (chrome) - Refreshes page and updates cache
 
 Terminal
   rm -rf - Removes directories and files without prompt
   Customize Terminal - https://www.maketecheasier.com/remove-user-hostname-terminal-prompt/
 
 GIT
+  Commands for gitCLI
+    https://guides.github.com/introduction/git-handbook/#basic-git
+    http://git-scm.com/documentation
   VCS - Version Control System
   Repository - Folder that we designated for git.
   Commits - Snapshots of time.
+  Should push your work twice a day. Once at the end of the morning and once at the end of the day. 
+    In real world, commit after making a small feature. Then commit to branch.
 
   check git username and email
     git config --get user.name
@@ -58,8 +71,16 @@ GIT
   push changes to github
     git push -u origin master
 
+IntelliJ
+  cmd+shfit+a - spotlight for intellij
+  cmd+option+t - brings up menu, 'surround with tag'
+  cmd+option+L - Auto refactor code
+
 HTML
+  HTML - Provides Structure for Website
   Semantics is the study of the meanings of words and phrases in a language.
   Semantic elements = elements with a meaning.
     Examples: <form>, <table>, and <article>
     Non-Examples: <div> and <span>
+  Void elements are self closing tags
+    <br/>, <hr/>, <img/>
