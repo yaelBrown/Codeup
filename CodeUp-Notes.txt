@@ -84,3 +84,5 @@ HTML
     Non-Examples: <div> and <span>
   Void elements are self closing tags
     <br/>, <hr/>, <img/>
+  Request inspector
+    https://request-inspector.glitch.me/
