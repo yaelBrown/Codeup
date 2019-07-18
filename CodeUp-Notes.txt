@@ -86,3 +86,8 @@ HTML
     <br/>, <hr/>, <img/>
   Request inspector
     https://request-inspector.glitch.me/
+
+CSS
+  has a selector and a declaration.
+    declarations use key value pairs.
+    
