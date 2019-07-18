@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register With Us - Veridian Dynamics</title>
+</head>
+<body>
+  <form method="POST" action="https://request-inspector.glitch.me/">
+    
+    <label for="email">Email</label>
+    <input id="email" name="email" type="text" placeholder="email">
+    <br/>
+    
+    <label for="password">Password</label>
+    <input id="password" name="password" type="password" placeholder="password">
+    <br/>
+
+    <label for="bio">Bio</label><br/>
+    <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+    <br/>
+
+    <label for="hearAboutUs">How did you hear about us?</label><br/>
+
+    <input type="radio" name="hearAboutUs" id="billboard" value="billboard">
+    <label for="billboard">Billboard</label>
+    
+    <input type="radio" name="hearAboutUs" id="radioAdvertisement" value="radioAdvertisement">
+    <label for="radioAdvertisement">Radio Advertisement</label>
+    
+    <input type="radio" name="hearAboutUs" id="internetAdvertisement" value="internetAdvertisement">
+    <label for="internetAdvertisement">Internet Advertisement</label>
+    
+    <input type="radio" name="hearAboutUs" id="other" value="">
+    <label for="other">Other</label>
+    <br/>
+
+    <label for="whatBrowser">What web browser are you using?</label></br>
+    <select name="whatBrowser" id="whatBrowser">
+      <option value="chrome">Google Chrome</option>
+      <option value="ie">Internet Explorer</option>
+      <option value="firefox">Firefox</option>
+    </select>
+
+    <input type="submit">
+  </form>
+</body>
+</html>
+
+<!--
+  7a. If they are given different name attributes they will look like there are separate radio groups (questions)
+
+  . 
+
+-->
