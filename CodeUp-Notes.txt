@@ -90,4 +90,5 @@ HTML
 CSS
   has a selector and a declaration.
     declarations use key value pairs.
-    
+  top, right, bottom, left
+    positive values push, negative values pull.
