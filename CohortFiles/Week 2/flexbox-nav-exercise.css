@@ -28,7 +28,7 @@ main, html, body {
   padding: 0px;
   margin: 0px;
   background-color: #fff;
-  font-family: "montserrat", "Work Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: bold;
 }
 
@@ -66,6 +66,7 @@ nav li:hover {
   margin: 0 auto 0 auto;
   position: relative;
   left: -3%;
+  font-family: "Montserrat";
 }
 
 .h1text:hover {
