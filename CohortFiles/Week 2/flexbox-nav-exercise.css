@@ -1,0 +1,79 @@
+/* Variables */
+
+:root {
+  --null: "";
+}
+
+/* Borders (for troubleshooting) */
+
+.wborder {
+  border: 1px solid #fff;
+  z-index: 999;
+}
+
+.bborder {
+  border: 1px solid #000;
+  z-index: 999;
+}
+
+/* Basic Page Elements */
+
+* {
+  box-sizing: border-box;
+}
+
+main, html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-color: #fff;
+  font-family: "montserrat", "Work Sans", sans-serif;
+  font-weight: bold;
+}
+
+/* nav bar */
+nav {
+  height: 4.25em;
+  background-color: #c1c1c1;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  height: 100%;
+  position: relative;
+  left: -1.5em;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  margin: 1em;
+}
+
+nav li:hover {
+  color: blue;
+}
+
+.h1text {
+  font-size: 3em;
+  margin: 0 auto 0 auto;
+  position: relative;
+  left: -3%;
+}
+
+.h1text:hover {
+  color: #000;
+}
+
+nav ul li h1 {
+  position: relative;
+}
+
+/* Page Content */ 
