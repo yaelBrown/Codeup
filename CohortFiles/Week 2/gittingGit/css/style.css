@@ -186,6 +186,7 @@ nav {
   background-color: #606F7B;
   width: 100vw;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .ggHeader {
@@ -201,27 +202,85 @@ nav {
   text-align: center;
 }
 
+/* Tier boxes */
+
 .tierBoxes {
-  margin: 0 auto;
+  margin: 0 auto 3em;
+  color: #3D4852;
+  padding-bottom: 1em;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 1em 0 0;
 }
 
 .tier-box {
   width: 250px;
   margin: 0 auto;
-  background-color: #FFFFFF;
+  background-color: #F1F5F8;
   border-radius: 5px;
   z-index: 10;
+  text-align: center;
 }
 
-.tier-free {
-
+.tier-center {
+  text-align: center;
 }
 
 h3.tierHeader {
   text-align: center;
   margin: auto;
   padding: 15px;
-  width: 100%;
-  background-color: #F1F5F8;
   z-index: 5;
 }
+
+.tier-bottomBox {
+  background-color: #fff;
+  border-radius: 0px 0px 5px 5px;
+  padding-bottom: 2em;
+}
+
+.tier-box i {
+  font-size: 3em;
+  padding: .5em;
+}
+
+.tier-box ul {
+  padding: 0 2em;
+  margin-bottom: 3em;
+}
+
+.tier-box li {
+  margin: .3em;
+  text-align: left;
+}
+
+.tierBtn, .tierBtn-red {
+  background-color: #8695A0;
+  color: #fff;
+  border-radius: 5px;
+  padding: .5em;
+  width: 60%;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.tierBtn:hover {
+  background-color: #dae1e7;
+}
+
+.tierBtn p {
+  color: #fff;
+}
+
+.tierBtn-red {
+  background-color: #cc1f1a;
+}
+
+.tierBtn-red p {
+  color: #fff;
+}
+
+.tierBtn-red:hover {
+  background-color: pink;
+}
+
