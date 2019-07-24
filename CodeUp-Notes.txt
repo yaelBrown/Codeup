@@ -92,3 +92,8 @@ CSS
     declarations use key value pairs.
   top, right, bottom, left
     positive values push, negative values pull.
+  Flexbox is good for one-demensional layouts
+    like in a navbar
+  CSS Grid is better optimized when you want to have two-demensional layouts. 
+  Foundation was an old css layout
+  Grid-Area { [Row-start], [column-start], [row-end], [column-end]}
