@@ -1,0 +1,80 @@
+/* Variables */
+
+:root {
+  --null: "";
+}
+
+/* Borders (for troubleshooting) */
+
+.wborder {
+  border: 1px solid #fff;
+  z-index: 999;
+}
+
+.bborder {
+  border: 1px solid #000;
+  z-index: 999;
+}
+
+/* Basic Page Elements */
+
+* {
+  box-sizing: border-box;
+}
+
+main, html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Page Content */ 
+
+.box {
+  border: 1px solid #000;
+}
+
+main {
+  display: grid;
+  grid-template-columns: auto 900px auto;
+  margin: 1em;
+}
+
+article {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(5, auto);
+  grid-gap: .8em;
+  grid-area: 1 / 2 / -1 / 3;
+}
+
+.blank-space {
+  background-color: green;
+  grid-area: 1 / 2;
+}
+
+.header {
+  background-color: #FFD700;
+  grid-area: 1 / 1 / 2 / 6;
+}
+
+.nav {
+  background-color: #FFD700;
+  grid-area: 2 / 1 / 7 / 2;
+}
+
+.ads {
+  background-color: #FFD700;
+  grid-area: 2 / 5 / 6 / 6;
+}
+
+.footer {
+  background-color: #FFD700;
+  grid-area: 6 / 2 / 7 / 6;
+}
+
+.article {
+  background-color: #FFD700;
+  grid-area: 2 / 2 / 6 / 5;
+}

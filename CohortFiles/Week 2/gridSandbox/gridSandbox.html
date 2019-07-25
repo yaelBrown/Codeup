@@ -58,6 +58,8 @@
       article {
         display: grid;
         grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(5, auto);
+        grid-gap: 1em;
       }
 
       .middle-Area {
@@ -73,6 +75,15 @@
         z-index: 100;
       }
 
+      #b5 {
+        text-align: left;
+      }
+
+      .middle-boxes {
+        grid-area: 2 / 2 / 4 / 3;
+        background-color: teal;
+      }
+
     </style>
     <title> CSS Grid Sandbox by Yael</title>
   </head> 
@@ -85,10 +96,10 @@
         <div class="box navbar">Box 2</div>
         <div class="box navbar">Box 3</div>
         <div class="box">Box 4</div>
-        <div class="box">Box 5</div>
+        <div class="box middle-boxes">Box 5</div>
         <div class="box">Box 6</div>
         <div class="box">Box 7</div>
-        <div class="box">Box 8</div>
+        <div class="box middle-boxes">Box 8</div>
         <div class="box">Box 9</div>
       </article>
     </main>

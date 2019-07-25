@@ -1,0 +1,50 @@
+/* Variables */
+
+:root {
+  --null: "";
+}
+
+/* Borders (for troubleshooting) */
+
+.wborder {
+  border: 1px solid #fff;
+  z-index: 999;
+}
+
+.bborder {
+  border: 1px solid #000;
+  z-index: 999;
+}
+
+/* Basic Page Elements */
+
+* {
+  box-sizing: border-box;
+}
+
+main, html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Page Content */ 
+
+.box {
+  border: 1px solid #000;
+  background-color: #9ACD32;
+}
+
+main {
+  display: grid;
+  grid-template-columns: auto 900px auto;
+}
+
+section {
+  grid-area: 1 / 2 / -1 / 3;
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  grid-template-rows: 80px 1fr 70px 70px;
+  grid-gap: .8em;
+}
