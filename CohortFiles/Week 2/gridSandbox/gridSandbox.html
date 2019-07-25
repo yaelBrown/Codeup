@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="">
+    <meta name="author" content="Yael Brown">
+    <meta name="copyright" content="">
+
+    <!-- CSS -->
+    <style>
+      /* Variables */
+
+      :root {
+        --null: "";
+      }
+
+      /* Borders (for troubleshooting) */
+
+      .wborder {
+        border: 1px solid #fff;
+        z-index: 999;
+      }
+
+      .bborder {
+        border: 1px solid #000;
+        z-index: 999;
+      }
+
+      /* Basic Page Elements */
+
+      * {
+        box-sizing: border-box;
+      }
+
+      main, html, body {
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+      }
+
+      /* Page Content */ 
+
+      .box {
+        border: 2px solid #000;
+        text-align: center;
+      }
+
+      /* grid/flexbox stuff */
+      main {
+        display: grid;
+        grid-template-columns: auto repeat(3, 300px) auto;
+      }
+
+      article {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+      }
+
+      .middle-Area {
+        grid-area: 1 / 2 / -1 / 5;
+      }
+
+      .navbar {
+        grid-area: 1 / 1 / 2 / -1;
+        background-color: red;
+      }
+
+      .b1 {
+        z-index: 100;
+      }
+
+    </style>
+    <title> CSS Grid Sandbox by Yael</title>
+  </head> 
+      
+  <body>
+  
+    <main>
+      <article class="middle-Area">
+        <div class="box navbar">Box 1</div>
+        <div class="box navbar">Box 2</div>
+        <div class="box navbar">Box 3</div>
+        <div class="box">Box 4</div>
+        <div class="box">Box 5</div>
+        <div class="box">Box 6</div>
+        <div class="box">Box 7</div>
+        <div class="box">Box 8</div>
+        <div class="box">Box 9</div>
+      </article>
+    </main>
+    
+  </body>
+
+</html>

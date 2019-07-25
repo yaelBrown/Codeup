@@ -19,7 +19,7 @@ body {
     display: grid;
     grid-template-columns: auto repeat(3, 400px) auto;
     grid-gap: 1em;
-    height: 100vh;
+    height: 100%;
 }
 
 ul {
@@ -43,8 +43,9 @@ main {
     /* TODO: define the grid area of main such that it takes up the columns 3 and 4 of the second row  */
     /* TODO: make main a grid container as well */
     /* TODO: define main to contain three columns that together take up equally the full width of main and have a 1em gap between grid items */
-    overflow: auto;
-    grid-area: 2 / 3 / 5 / 6 ;
+    grid-area: 2 / 3 / 5 / 5;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
 }
 
 header ul {
@@ -61,8 +62,9 @@ header a {
 
 header ul li:nth-of-type(2) {
     /* TODO: uncomment the next line and add a value which causes Flexbox to automatically fill in extra space on it's left side */
-    /*margin-left: ;*/
+    margin-left: auto;
     border-right: 1px solid white;
+    /* flex-grow: 1; */
 }
 
 header a:hover {
@@ -73,6 +75,7 @@ header a:hover {
 .header-background {
     background: purple;
     /* TODO: define the grid area of this element to take up the entire first row of the .container grid  */
+    grid-area: 1 / 1 / 2 / 6;
 }
 
 nav ul {
