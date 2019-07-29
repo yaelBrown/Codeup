@@ -1,0 +1,107 @@
+/* Variables */
+
+:root {
+  --gbp-orange: #E35141;
+  --gbp-lgtGrey: #F1F1F1;
+  --gbp-drkGrey: #666666;
+}
+
+/* Borders (for troubleshooting) */
+
+.wborder {
+  border: 1px solid #fff;
+  z-index: 999;
+}
+
+.bborder {
+  border: 1px solid #000;
+  z-index: 999;
+}
+
+/* Basic Page Elements */
+
+* {
+  box-sizing: border-box;
+}
+
+main, html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+}
+
+main {
+
+}
+
+/* Page Content */ 
+
+/* Small devices (tablets, 600px and up) */
+@media screen and (max-width:600px) { 
+   body {
+    
+   }
+
+   main {
+     display: grid;
+     flex-direction: column;
+     grid-template-rows: repeat(6, auto);
+   }
+
+   /* Nav  */
+
+   nav {
+     grid-area: 1 / 1 / 2 / 2;
+     background-color: var(--gbp-orange);
+     border-bottom: 1px solid #666;
+     height: 40px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: .5em;
+   }
+
+   nav ul {
+     list-style: none;
+     padding: 0;
+     text-align: ;
+   }
+
+   nav li {
+     display: none;
+   }
+
+   #nav-home {
+     display: block;
+   }
+
+   #hamburger {
+     color: #fff;
+   }
+
+   /* Page Content */
+   article { 
+     border: 2px solid black;
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+   }
+
+   .jumbotronTxt {
+     margin: auto;
+   }
+
+   #jumbotron {
+     text-align: center;
+     grid-area: ;
+   }
+}
+
+/* Large devices (large desktops, 601px and up) */
+@media screen and (min-width:601px) { 
+  body {
+    background-color: green;
+  }
+}

@@ -1,0 +1,86 @@
+/* Variables */
+
+:root {
+  --null: "";
+}
+
+/* Borders (for troubleshooting) */
+
+.wborder {
+  border: 1px solid #fff;
+  z-index: 999;
+}
+
+.bborder {
+  border: 1px solid #000;
+  z-index: 999;
+}
+
+/* Basic Page Elements */
+
+* {
+  box-sizing: border-box;
+}
+
+main, html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Page Content */ 
+
+body {
+  background-image: url("./forest.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  font-family: Raleway, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Nav (logo text) */
+
+nav {
+  top: 0;
+  float: left;
+  color: #fff;
+  padding: .5em;
+  display: flex;
+  align-self: flex-start;
+}
+
+h3 {
+  font-size: 3em;
+  margin: 0 auto;
+}
+
+/* Header (Coming soon text) */
+
+heading {
+  margin: auto;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Footer (credits) */
+
+footer {
+  align-self: flex-start;
+  color: #fff;
+}
+
+h3 {
+  font-size: 1em;
+  text-align: left;
+  padding: 1em;
+}
