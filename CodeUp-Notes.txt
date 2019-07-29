@@ -71,6 +71,24 @@ GIT
   push changes to github
     git push -u origin master
 
+  Create Organization (for pair programming)
+    + [on top right]
+    New Organization
+    Create name
+    For personal
+    Free version
+    add billing email
+    press create organization
+    add user to organization
+      invite member
+      search and select username
+      press invite
+    change role
+      people
+      gear [to the right]
+      change role
+      owner
+
 IntelliJ
   cmd+shfit+a - spotlight for intellij
   cmd+option+t - brings up menu, 'surround with tag'
