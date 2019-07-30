@@ -284,3 +284,45 @@ h3.tierHeader {
   background-color: pink;
 }
 
+/* FAQ */
+
+.faq {
+  padding-top: 2em;
+  padding-bottom: 4em;
+}
+
+/* Jmac */
+
+.jmac {
+  background-color: #3D4852;
+  color: #fff;
+  width: 100%;
+  height: 15rem;
+  padding-top: 2rem;
+}
+
+.jmac-left {
+  float: left;
+}
+
+.jmac-right {
+  float: left;
+  width: 60%;
+  padding-left: 4rem;
+}
+
+.jmac-left img {
+  border-radius: 9999px;
+  border: 4px solid #fff;
+  width: 200px;
+  height: auto;
+}
+
+.jmac h2, .jmac p {
+  color: #fff;
+  text-align: left;
+}
+
+.jmac h2 {
+  margin-top: 0;
+}
