@@ -1,5 +1,9 @@
 Code Notes
 
+java.codeup.com
+  ds.codeup.com
+  php.codeup.com
+
 These are the links to book us for one on one meetings. Try to book meetings first with Terrell or your current instructors. Come prepared with your questions and (or) code!
 
   Terrell: https://app.hubspot.com/meetings/terrell4
@@ -18,10 +22,18 @@ Pair up with your neighbor and take turns interviewing each other with the follo
   What technologies interest you, web development/coding-related, and otherwise?
   What blogs and other news sites do you go to to get the latest info on technology?
 
-Sohpies html/css/js analogy
-  HTML is the structure of the house. 
-  CSS is the design of the house (color of walls, where furniture is placed)
-  Javascript is what you can do in the house (open windows, close doors)
+MVP - Minium Viaable Product
+Brendan Eich, founded javascript and co-founded Mozilla.
+ECMA - European Computer Manufacturers Association
+
+Good interview examples: 
+  Sophies html/css/js analogy
+    HTML is the structure of the house. 
+    CSS is the design of the house (color of walls, where furniture is placed)
+    Javascript is what you can do in the house (open windows, close doors)
+
+  Ryans boolean expression
+    I am either on the moon, or I am in front of you. 
 
 Mac
   shift+LArrow/RArrow - Highlights individual character
@@ -106,6 +118,7 @@ HTML
     https://request-inspector.glitch.me/
 
 CSS
+  BOM - Box Object Model
   has a selector and a declaration.
     declarations use key value pairs.
   top, right, bottom, left
@@ -115,3 +128,63 @@ CSS
   CSS Grid is better optimized when you want to have two-demensional layouts. 
   Foundation was an old css layout
   Grid-Area { [Row-start], [column-start], [row-end], [column-end]}
+  CSS Grid is the most efficient way to produce a layout
+
+JS
+  cmd+option+j - Opens developer console.
+  type cohersion - When you take one data type and convert it to another
+    no type cohersion on boolean values
+    convert to num
+      +"2" = declares a string into a number
+      number("2")
+      parseInt("2")
+      parseFloat("2")
+    convert to string
+      num.toString();
+      4 + ""
+  double quotes can be nested into single quotes.
+  3 '\' will not output a string. (if wrapped in string)
+    if you want to use 2 \'s you have to use 4 \'s.\
+    ... or just use double quotes
+  modulus - the 'remainder' operator
+  double not (!!) - is used to invert boolean
+  Order of operations for comparison operators:
+    NOT 
+    AND 
+    OR
+  ==  - is a conhersion, can convert data types
+  === - is a strict operator also compares value and data type.
+  != - is a comparison operator (not recommended to use) 'not equal to'
+    2 != 2 // false, 2 is equal to 2 (TRUE), inverted because NOT. (FALSE)
+  'typeof [primitive datatype]' - will display the type of data type. Does not have to be in function.
+    Does not work in Node.
+  "var = x, y, z" // declare multiple variables
+  do not have to use var to create variable
+    cannot create a variable that starts with a number
+  post and pre increment operator
+    post - increment is after the var (i++)
+    pre - increment is before the var (++i)
+  NaN === NaN // false, 'is this unknown value equal to this unknown value'
+    isNaN() - Is this value 'not a number' ?
+    isNaN(undefined + undefined) // true
+    isNaN("2") // true, can be converted to a number so will be true
+    isNaN("1234fasdfsdf") // true
+  Name of strings, difference between litteral and variable
+    "str" = string litteral
+    str = variable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
