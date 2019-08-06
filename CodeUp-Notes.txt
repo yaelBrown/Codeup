@@ -22,6 +22,43 @@ Pair up with your neighbor and take turns interviewing each other with the follo
   What technologies interest you, web development/coding-related, and otherwise?
   What blogs and other news sites do you go to to get the latest info on technology?
 
+PB&J SANDWICH
+  Group into teams of three-four.
+  Over the next 15 minutes, write out all the steps it would take to make a peanut butter and jelly sandwich from scratch.
+  Each instruction should be short and simple enough for a five year-old to understand.
+  Group every 4-8 instructions in a named block (paragraph), relating to one main concern.
+  Aim for 20+ instructions  
+
+What is concatenation?
+  What are some significant characteristics of the JavaScript language?
+    High Level language
+    Loosely typed 
+    Language of the web
+    Written in 90s, for netscape navigator by Co-Founder of Mozilla
+  What is the difference between =, ==, and ===?
+    =    Assignment Operator
+    ==   Equal in value
+    ===  Equal in type and value
+  What version of JavaScript are we currently learning in class?
+    ES5 Currently
+  What are the JavaScript primative data types mentioned so far?
+    Numbers
+    Strings
+    Booleans
+  What are some ways to convert a numeric string into a number and vice versa?
+    ParseInt() and "#" + ""
+    num.toString()
+  What is an example of an 'overloaded operator'?
+    It's an operator that can do two operations. 
+      str1 * str2 = [product, if both are string of numbers]
+  How are JavaScript strings immutable?
+    using const to declare variable
+  What is a JS expression?
+    multiple values that lead to one value
+  What is a JS statement?
+    JavaScript statements are composed of Values, Operators, Expressions, Keywords, and Comments.
+  Can multiple values be stored in a variable?
+
 MVP - Minium Viaable Product
 Brendan Eich, founded javascript and co-founded Mozilla.
 ECMA - European Computer Manufacturers Association
@@ -46,6 +83,8 @@ Chrome
 Terminal
   rm -rf - Removes directories and files without prompt
   Customize Terminal - https://www.maketecheasier.com/remove-user-hostname-terminal-prompt/
+  Append file
+    echo 'stuff to add to text file' >> [filename]
 
 GIT
   Commands for gitCLI
@@ -100,6 +139,19 @@ GIT
       gear [to the right]
       change role
       owner
+
+  Create a new branch
+    git branch [branch name]
+  Switch branches
+    git checkout [branch Name]
+    git checkout -b [branch name] (creates branch and switches to it)
+  Show list of branches
+    git branch
+  merge branch with master
+    git merge [branch name]
+
+  show list of commits
+    git log
 
 IntelliJ
   cmd+shfit+a - spotlight for intellij
@@ -172,10 +224,24 @@ JS
   Name of strings, difference between litteral and variable
     "str" = string litteral
     str = variable
-
-
-
-
+  Everything in Javascript is an object. 
+    String is primitive type and converted to object at runtime. 
+  str.toFixed(2) adds ".00" at the end of numeric string.
+  Functions
+    functions are like paragraphs. 
+    group of instructions.
+    way of containing one or more statements
+    called first class citizens in javascript
+    Parameter - is what will be passed into the function
+    Argument - Value that is passed into the function, and treated how parameter of the function is used. 
+    leave off parenthesis you are referring to the original definition of the function
+      var dogSound = bark;    // Assigning the definition of the function
+      var sound = bark();    // Assigning the value of the function
+    Function declaration syntax - The normal way of defining functions
+      function bark() { }
+    Anonymous Function - function defined without a name.
+      var bark = function() { };
+    IIFE - function that has a anonymous function wrapped in parenthesis and is immediately called
 
 
 

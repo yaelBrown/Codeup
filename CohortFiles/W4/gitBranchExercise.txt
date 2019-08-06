@@ -1,0 +1,16 @@
+================================= GIT BRANCHING EXERCISE
+Add and commit any work not yet completed (start with a 'clean' master branch)
+Create a branch of your name:
+  git checkout -b firstname-lastname
+In this branch, use the following command to create a new file: 
+  touch branch-test.txt
+Add and commit the change:
+  git add . (or git add branch-test.txt)
+  git commit -m "Add branch-test.txt"
+Check your list of branches:
+  
+  git branch
+Checkout to master:
+  git checkout master
+Merge the changes from your branch
+  git merge firstname-lastname
