@@ -242,8 +242,12 @@ JS
     Anonymous Function - function defined without a name.
       var bark = function() { };
     IIFE - function that has a anonymous function wrapped in parenthesis and is immediately called
-
-
+  Conditionals
+    Ternary operator - more efficient
+      var [varName] = (condition) ? [true action] : [else action];
+    Switch statements
+      can just do return, instead of adding break statements
+      no agreed upon solution for best practice.
 
 
 
