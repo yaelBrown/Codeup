@@ -105,6 +105,8 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * You should see a different message everytime you refresh the page
  */
 
+console.log(randomColor);
+
 /**
  * TODO:
  * Refactor your above function to use a switch-case statement
@@ -173,3 +175,47 @@ console.log(analyzeColor(promptForColor));
  */
 // Generate a random number between 0 and 6
 // var luckyNumber = Math.floor(Math.random() * 6);
+
+var luckyNum = Math.trunc(Math.random() * 6);
+
+function calcDiscount(total, discount) {
+  let temp;
+  
+  if (discount > 0.01) {
+    temp = (total * discount) - total;
+    temp = Math.abs(temp);
+  } else {
+    temp = total;
+  }
+  
+  return temp;
+}
+
+function calculateTotal(luckyNum, total) {
+  let discount;
+  let ans;
+  
+  switch (luckyNum) {
+    case 1:
+      discount = .10;
+      break;
+    case 2:
+      discount = .25;
+      break;
+    case 3: 
+      discount = .35;
+      break;
+    case 4:
+      discount = .5;
+      break;
+    case 5:
+      discount = 1;
+      break;
+    default: 
+      discount = 0;
+      break;
+  }
+  
+   ans = calcDiscount(total, discount);
+   return ans;
+}
