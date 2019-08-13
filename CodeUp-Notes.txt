@@ -241,6 +241,7 @@ JS
       function bark() { }
     Anonymous Function - function defined without a name.
       var bark = function() { };
+      (function () { [code] })();
     IIFE - function that has a anonymous function wrapped in parenthesis and is immediately called
   Conditionals
     Ternary operator - more efficient
@@ -248,8 +249,22 @@ JS
     Switch statements
       can just do return, instead of adding break statements
       no agreed upon solution for best practice.
-
-
+  Loops
+    A way to repeat logic
+      While Loop - Will run while a condition is true
+      Do-While - Will run at least once, but same as while loop.
+      For Loops - Designed to run a given number of times. 
+        for (incrementor; condition; increment) { ...
+        can use letters in a string to run a for loop.
+    Can break from or skip loops through loops
+      break - exits the loop goes to continuing code. Break you out of the loop.
+      continue - skips the code under when condition is true but continues the loop. Will continue to run loop.
+  Arrays
+    forEach loops are specific to arrays. 
+      [arrName].forEach (function(element, index, array){
+        [code]
+      });
+      Order is mandatory, Name is not for attributes of anonymous function.
 
 
 
