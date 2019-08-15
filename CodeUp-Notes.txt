@@ -265,8 +265,17 @@ JS
         [code]
       });
       Order is mandatory, Name is not for attributes of anonymous function.
+  Object
+    Method is a function associated with object.
+    Attribute is a property associated with object.
 
 
+
+
+
+extra study
+  setInterval
+  setTimeout
 
 
 
