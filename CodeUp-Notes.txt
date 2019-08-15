@@ -104,22 +104,22 @@ GIT
     git config --global user.email email@email.com
 
   init a git repository in current directory
-    git init
-  add files into staging area
-    git add
-  check status of files
-    git status
-  remove files from cached
-    git rm --cached
-  remove files from staged
-    git rm --cached [filename.file]
-  show log of changes
-    git log
-  write commit message
-    git commit -m "My commit message"
-  add url to github
-    git remote add origin https://url/repository.git
-  push changes to github
+      git init
+    add files into staging area
+      git add
+    check status of files
+      git status
+    remove files from cached
+      git rm --cached
+    remove files from staged
+      git rm --cached [filename.file]
+    show log of changes
+      git log
+    write commit message
+      git commit -m "My commit message"
+    add url to github
+      git remote add origin https://url/repository.git
+    push changes to github
     git push -u origin master
 
   Create Organization (for pair programming)
@@ -141,14 +141,17 @@ GIT
       owner
 
   Create a new branch
-    git branch [branch name]
-  Switch branches
-    git checkout [branch Name]
-    git checkout -b [branch name] (creates branch and switches to it)
-  Show list of branches
-    git branch
-  merge branch with master
-    git merge [branch name]
+      git branch [branch name]
+    Switch branches
+      git checkout [branch Name]
+      git checkout -b [branch name] (creates branch and switches to it)
+    Show list of branches
+      git branch
+    merge branch with master
+      git merge [branch name]
+
+  Pull Request
+
 
   show list of commits
     git log
@@ -268,7 +271,9 @@ JS
   Object
     Method is a function associated with object.
     Attribute is a property associated with object.
-
+  DOM
+    Objects using getElementByClassName are added to an node list. An Nodelist is like an array list but its not an array. 
+    Can use similar methods with nodelist as you would array. 
 
 
 
