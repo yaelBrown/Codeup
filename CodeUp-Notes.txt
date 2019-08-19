@@ -62,6 +62,7 @@ What is concatenation?
 MVP - Minium Viaable Product
 Brendan Eich, founded javascript and co-founded Mozilla.
 ECMA - European Computer Manufacturers Association
+this().is().method().chaining();
 
 Good interview examples: 
   Sophies html/css/js analogy
@@ -152,6 +153,11 @@ GIT
 
   Pull Request
 
+  Hide keys on gh - (dont need to export or import, variable is created in global scope)
+    add keys.js to .gitignore
+    create variable and add token to the variable
+    use script tags and include the keys file. (html style)
+    use the variable name created in first step in location of where the key originally was
 
   show list of commits
     git log
@@ -262,6 +268,8 @@ JS
     Can break from or skip loops through loops
       break - exits the loop goes to continuing code. Break you out of the loop.
       continue - skips the code under when condition is true but continues the loop. Will continue to run loop.
+    for of loops - Loop through values
+    for in loops - Loop through property names
   Arrays
     forEach loops are specific to arrays. 
       [arrName].forEach (function(element, index, array){
