@@ -282,7 +282,8 @@ JS
   DOM
     Objects using getElementByClassName are added to an node list. An Nodelist is like an array list but its not an array. 
     Can use similar methods with nodelist as you would array. 
-
+  Jquery
+    use older versions of jquery to support older browsers
 
 
 
