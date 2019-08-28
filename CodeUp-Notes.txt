@@ -284,12 +284,29 @@ JS
     Can use similar methods with nodelist as you would array. 
   Jquery
     use older versions of jquery to support older browsers
-
+    e.target refers to the same target as this. is clear
+    this - what it refers to depends on how it is used
 
 
 extra study
   setInterval
   setTimeout
+
+
+
+================================= THE X Y Z OF CREATING A DOM EXERCISE
+If the user does x, y will change in z way.
+x === click || keyboard input || hover || wait
+y === any part(s) of the DOM
+z === change CSS/Text/HTML of the given DOM nodes
+================================= DOM ASSESSMENT CHECKLIST
+___ I can quickly and confidently add jQuery to an HTML page.
+___ I can quickly and confidently add event listeners to various DOM elements.
+___ I can quickly and confidently add event listeners triggered by various event types.
+___ I can quickly and confidently cause style changes to specific parts of the DOM.
+___ I can quickly and confidently change the inner text and inner html of specific parts of the DOM.
+___ I can use information in the DOM to change other information in the DOM
+Remember, use of jQuery is NOT required to complete the DOM Manipulation Assessment but using jQuery will make the problems simpler to solve.
 
 
 
