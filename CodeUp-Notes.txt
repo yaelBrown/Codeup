@@ -177,6 +177,9 @@ HTML
     <br/>, <hr/>, <img/>
   Request inspector
     https://request-inspector.glitch.me/
+  GET requests send passwords in url.
+    Limited number of characters
+  POST requests are good for sending a lot of data
 
 CSS
   BOM - Box Object Model
@@ -286,6 +289,13 @@ JS
     use older versions of jquery to support older browsers
     e.target refers to the same target as this. is clear
     this - what it refers to depends on how it is used
+    AJAX - Asynchonous Javascript Requests, same as FETCH method with vanilla
+      https://ur/.json  - Adding '.json' shows json data
+      https://hookbin.com/  - used for analysing requests. Returns {success:true}
+      jqXHR - jQuery xml request
+  ES6
+    immutable - Strings are immutable, when you run functions on them they create a copy and don't alter the original string. 
+    mutable - Mutable objects are objects where you run functions it runs changes on the numbers.
 
 
 extra study
@@ -309,7 +319,7 @@ ___ I can use information in the DOM to change other information in the DOM
 Remember, use of jQuery is NOT required to complete the DOM Manipulation Assessment but using jQuery will make the problems simpler to solve.
 
 
-
+Star Wars api
 
 
 
