@@ -296,12 +296,32 @@ JS
   ES6
     immutable - Strings are immutable, when you run functions on them they create a copy and don't alter the original string. 
     mutable - Mutable objects are objects where you run functions it runs changes on the numbers.
+    Map, Filter, Reduce - All functions off of an array.
+    Reduce - is an reduction algorithm
+    Sets - are unique collections that only allow unique values
+  Promises
+    Used for making a request to RESTful API, downloading large assets, loading the document, timed actions, reading and writing to files. 
+    Promises make code cleaner. 
+    a value that represents a eventual value of an asynch action
+    avoids callback hell
+    (looks a lot like .done() and .fail() in jquery)
+
+
+
+
+
+
+
+
+
+
 
 
 extra study
-  setInterval
-  setTimeout
-
+  reduce
+  filter
+  promises
+  sets
 
 
 ================================= THE X Y Z OF CREATING A DOM EXERCISE
