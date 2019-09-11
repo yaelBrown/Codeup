@@ -312,7 +312,8 @@ JS
   Webpack
     Copy the webpack command from website. 
       install webpack-cli, not in the long command on the website.
-    "webpack --mode=development" - makes it developer readable. 
+    "webpack --mode=development" - makes it developer readable.
+    webpack config file has to be named "webpack.babel.config.js" 
 
 
 
