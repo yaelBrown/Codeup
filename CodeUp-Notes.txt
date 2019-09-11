@@ -305,6 +305,14 @@ JS
     a value that represents a eventual value of an asynch action
     avoids callback hell
     (looks a lot like .done() and .fail() in jquery)
+  Babel
+    Transpile - converts es6 to es5. Going down. 
+    Babel is a transpiler in js. 
+    stuff in the curriculm is out of date
+  Webpack
+    Copy the webpack command from website. 
+      install webpack-cli, not in the long command on the website.
+    "webpack --mode=development" - makes it developer readable. 
 
 
 
