@@ -313,11 +313,28 @@ JS
     Copy the webpack command from website. 
       install webpack-cli, not in the long command on the website.
     "webpack --mode=development" - makes it developer readable.
-    webpack config file has to be named "webpack.babel.config.js" 
-
-
-
-
+    webpack config file has to be named "webpack.babel.config.js"
+    "webpack --watch" - automatically refreshes the page.
+  imp vs require
+    require - often used with service-side js. Not supported natievely client-side (in the browser)
+    import - often used in front-end js. Part of the es6 spec but not yet supported natievely by browsers
+    break into module
+      you can image dropping into another proj
+      too many related functions are cluttering up your index.js
+      have sensitive data that may be ignored by version control
+    uses dash seperated (spinal-case)
+    module.exports
+      all (multiple) exports are objects. Export them as objects
+    export default
+      use import statement.
+Java
+  Jar - Executable file in Java
+  sb (justin's environmental variable) - command allows you to see compiled code in hex. (CAFE BABE)
+  javap -c - Lets you see all the procedures
+  Java Byte Code - is the compiled version of java code. (.class file).
+  /* 
+   *  This is a comment block
+   */
 
 
 
