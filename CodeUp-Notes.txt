@@ -377,7 +377,17 @@ Java
     "Scanner scanner = new Scanner(System.in);"
     have more control by using nextLine. 
       use next to grab things by spaces.
-
+  Control Statements
+    Java does not have '===' like javascript.
+    Cannot compare strings. 
+    To compare strings use '.equals()' method
+      sysout("yael".equals("yael")) // true
+    Can also use '.equalsIgnoreCase()'
+      compares strings but ignores the case.
+    Adding a ! in front of equals statement negates it
+    Use byte as a iterator for a for-loop
+      continue skips in for-loop. 
+      break stop the for-loop.
 
 
 
