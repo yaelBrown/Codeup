@@ -334,7 +334,32 @@ Java
   Java Byte Code - is the compiled version of java code. (.class file).
   /* 
    *  This is a comment block
+   *  @author yael
+   *  @param args
    */
+  Java Doc Comments
+  String is not a primitive type in Java. 
+    There are 8 primitive types in Java. 
+      byte = 1 byte
+      short = 2 bytes
+      int = 4 bytes
+  Theres no undefined in Java. Everything has to be defined. 
+  If you declare a variable, Java sets a default value to these variables.
+    int - 0
+    bool - false
+  Constants are defined with 'final' keyword. In JS it was 'const'
+  Camel case is also called Pascal Case.
+  Casting
+    Converting one datatype to another
+    Implicit casting 
+      Widening - Smaller datatype into a larger one
+      less to more
+    Explicit casting
+      Narrowing - Larger datatype into a smaller one.
+        Double -> Float -> Long -> Int -> Short -> Byte
+        more to less
+      Be careful if you explicitly cast.
+        Pouring water from bigger container into smaller container.
 
 
 
