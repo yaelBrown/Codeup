@@ -162,6 +162,9 @@ GIT
   show list of commits
     git log
 
+  git merge master
+    merges master to branch you are working on
+
 IntelliJ
   cmd+shfit+a - spotlight for intellij
   cmd+option+t - brings up menu, 'surround with tag'
@@ -332,6 +335,13 @@ Java
   sb (justin's environmental variable) - command allows you to see compiled code in hex. (CAFE BABE)
   javap -c - Lets you see all the procedures
   Java Byte Code - is the compiled version of java code. (.class file).
+  Runtime errors - break when you try to compile
+  Compiling error - when ide shows you the error before you compile
+  Cmd + click on a class will show whats in the class
+    You cannot change the language
+  %n creates new line
+  have more control by using nextLine. 
+    use next to grab things by spaces.
   /* 
    *  This is a comment block
    *  @author yael
@@ -360,6 +370,13 @@ Java
         more to less
       Be careful if you explicitly cast.
         Pouring water from bigger container into smaller container.
+    Cannot convert string to integer
+      cannot parse a name of a number into a number
+      parsing is better for converting "3" to 3
+  System.in inputs
+    "Scanner scanner = new Scanner(System.in);"
+    have more control by using nextLine. 
+      use next to grab things by spaces.
 
 
 
@@ -369,8 +386,6 @@ Java
 
 
 extra study
-  reduce
-  filter
   promises
   sets
 
