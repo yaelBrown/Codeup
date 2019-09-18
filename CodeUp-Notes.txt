@@ -151,6 +151,14 @@ GIT
     merge branch with master
       git merge [branch name]
 
+  Make cloned repo compatible to Java (in Intellij)
+    right click on directory (on the menu, the dir that you want for source folder)
+      mark directory as > sources root
+    File > Project Structure
+      Select Project SDK (language level)
+      Language level > 11
+      Add 'out' to project output directory
+
   Pull Request
 
   Hide keys on gh - (dont need to export or import, variable is created in global scope)
@@ -408,7 +416,8 @@ Java
 
 
 
-
+right click on directory
+mark directory as : sources root
 
 extra study
   promises
