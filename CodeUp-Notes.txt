@@ -330,6 +330,7 @@ JS
       all (multiple) exports are objects. Export them as objects
     export default
       use import statement.
+
 Java
   Jar - Executable file in Java
   sb (justin's environmental variable) - command allows you to see compiled code in hex. (CAFE BABE)
@@ -388,6 +389,20 @@ Java
     Use byte as a iterator for a for-loop
       continue skips in for-loop. 
       break stop the for-loop.
+  Strings
+    Primitive types store what the variable is in memory.
+    Strings in Java are immutable
+      other methods does not 'mutate' the original value of String
+    Strings are objects. 
+    When java object is created it has a reference id in hex.
+      only value that the variable name holds is the reference id.
+    When you assign one obj to another, you are assigning the reference id to the new obj
+    Double quote comparison, objs are automatically created
+      sout("hello" == "hello") // true
+    use .equalsTo() method to compare strings. (like previously stated)
+    use valueOf to convert another datatype to a string
+      String.valueOf([different data type])
+
 
 
 
