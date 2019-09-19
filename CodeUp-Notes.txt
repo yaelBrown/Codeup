@@ -397,6 +397,7 @@ Java
     Use byte as a iterator for a for-loop
       continue skips in for-loop. 
       break stop the for-loop.
+    Can have nested if statements. 
   Strings
     Primitive types store what the variable is in memory.
     Strings in Java are immutable
@@ -451,6 +452,4 @@ Remember, use of jQuery is NOT required to complete the DOM Manipulation Assessm
 
 
 Star Wars api
-
-
 
