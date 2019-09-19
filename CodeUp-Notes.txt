@@ -410,7 +410,19 @@ Java
     use .equalsTo() method to compare strings. (like previously stated)
     use valueOf to convert another datatype to a string
       String.valueOf([different data type])
-
+  Methods
+    Have the main method at the top. 
+      YOu will have other methods defined in other classes. All within the same package.
+    Can store values outside of the main method. 
+    "class is a collection of methods being defined"
+    Similar to webpack layout. 
+    Overload
+      Can use different data types for the same method.
+    Recursion
+      Improves the readability
+      It's faster in some languages but not in Java. 
+      StackOverflowError is when you run out of memory calling a function. (by calling it too many times or calling within its memory stack).
+        Memory - Stacks and Heaps
 
 
 
@@ -422,7 +434,6 @@ mark directory as : sources root
 extra study
   promises
   sets
-
 
 ================================= THE X Y Z OF CREATING A DOM EXERCISE
 If the user does x, y will change in z way.
