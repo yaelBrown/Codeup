@@ -424,6 +424,16 @@ Java
       It's faster in some languages but not in Java. 
       StackOverflowError is when you run out of memory calling a function. (by calling it too many times or calling within its memory stack).
         Memory - Stacks and Heaps
+  OOP
+    Entities are things in real life you can represent as a Java object
+    Properties in Math class are static. You can access them without having to instantiate a new Math class.
+    Instance object is an object you instantiate and has static properties and methods.
+    When you modify the static value, you make changes to everyone who uses the static values
+      most likely they were set for a reason
+      really don't need to be changed
+    Use 'handle' methods to hand certain things within a class
+      change the access modifier to private
+    Test your methods and parameters in a test class.
 
 
 
