@@ -430,6 +430,7 @@ Java
   OOP
     Entities are things in real life you can represent as a Java object
     Properties in Math class are static. You can access them without having to instantiate a new Math class.
+      In contrast to instance fields are static fields, those that belong to a class as a whole. Static fields are accessible through the class itself. In other words, they are accessible without creating an instance of the class.
     Instance object is an object you instantiate and has static properties and methods.
     When you modify the static value, you make changes to everyone who uses the static values
       most likely they were set for a reason
@@ -446,6 +447,7 @@ right click on directory
 mark directory as : sources root
 
 extra study
+  Static references (Java)
   promises
   sets
 
