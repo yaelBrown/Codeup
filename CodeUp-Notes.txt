@@ -177,6 +177,9 @@ IntelliJ
   cmd+shfit+a - spotlight for intellij
   cmd+option+t - brings up menu, 'surround with tag'
   cmd+option+L - Auto refactor code
+  sout - (java) shortcut for System.out.println("");
+  soutv - (java) shortcut for System.out.println("lastVar =", var2);
+    will help you label out your outputs.
 
 HTML
   HTML - Provides Structure for Website
