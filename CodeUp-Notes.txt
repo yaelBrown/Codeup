@@ -59,7 +59,35 @@ What is concatenation?
     JavaScript statements are composed of Values, Operators, Expressions, Keywords, and Comments.
   Can multiple values be stored in a variable?
 
-MVP - Minium Viaable Product
+Java Warmup
+  What are some ways arrays in Java are different from JavaScript arrays?
+  JRE 
+  JDK
+  JVM
+  Java Compiler
+  JavaDoc
+  Java Bytecode
+  Java SE
+  Java EE
+  Runtime Error/Exception
+  Compile Time Error
+  Primitive Data Type
+  Reference Data Type
+  Method Overloading
+  Identifier
+  Casting (Explicit vs. Implicit)
+  Boolean Expression
+  Code Block
+  Iteration
+  Control Structure
+  Mutable vs. Immutable
+  Concatenation
+  Method
+  Method Overloading
+  Recursion
+  Parameter
+
+MVP - Minium Viable Product
 Brendan Eich, founded javascript and co-founded Mozilla.
 ECMA - European Computer Manufacturers Association
 this().is().method().chaining();
@@ -438,7 +466,21 @@ Java
     Use 'handle' methods to hand certain things within a class
       change the access modifier to private
     Test your methods and parameters in a test class.
-
+    "Try not to repeat yourself"
+    "Seperate out your concerns"
+  Inheritance - Take properties from parent class. (inherit them)
+    The diamond problem
+    Visibility Modifiers 4 types - Use private, unless you have a good reason not to.
+      public
+      protected
+      private
+      package private (no modifier)
+  Polymorphism - means having many forms
+    Create getters and setters everytime you create a new property
+    Always create a constructor for every class you create
+  Final - keyword prevents further inheritance
+    Final on a method - prevents them from being overridden
+    Final on a variable - prevents them from being reassigned
 
 
 
@@ -468,3 +510,43 @@ Remember, use of jQuery is NOT required to complete the DOM Manipulation Assessm
 
 Star Wars api
 
+
+Java Inheritance conclusions so far...
+- Java allows classes and objects to inherit properties and methods.
+- Inheritance keeps similar classes from requiring duplicate code and organizes our classes into groups, subgroups, subsubgroups, etc.
+- The subclass/child class can access all public properties and methods from its super/parent class.
+- A subclass can have additional properties and methods that don't exist on the the super class.
+- A class can only extend from one other direct parent.
+- Classes can keep extending down into more and more specific classes:
+ Person
+  is extended by Employee
+ Employee
+  is extended by Engineer
+ Engineer
+  is exteded by JuniorEngineer
+ etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+talk about encapsulation in curriculum.
