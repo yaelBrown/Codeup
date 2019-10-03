@@ -70,22 +70,60 @@ Java Warmup
   Java SE
   Java EE
   Runtime Error/Exception
+    exceptions can be altered, runtime errors you cannot
+    exception does not break the code, runtime error does
   Compile Time Error
+    error at compile time, usually at syntax
   Primitive Data Type
   Reference Data Type
   Method Overloading
   Identifier
+    name given to package, class, interface, or variable
   Casting (Explicit vs. Implicit)
+    explicit going from large to small
+    implicit going from small to large
   Boolean Expression
   Code Block
   Iteration
+    Used to sequence through a block of code repeatedly tuntil a condition is either exists or no long exists
   Control Structure
+    analyses vars and chooses direction to go based on given parameters
   Mutable vs. Immutable
   Concatenation
+    put 2 str's together or str and an int
   Method
-  Method Overloading
   Recursion
+    when you call the method inside of itself
   Parameter
+    ?
+
+================================= JAVA II REVIEW WARM UP
+Define the following terms and cite a specific example for each...
+ Encapsulation
+ Inheritance
+ Polymorphism
+ Abstraction
+What is the difference between a checked and an unchecked exception?
+  checked exception is at compile time (syntax)
+  unchecked exception is at runtime
+Under what conditions would using a map collection be preferred over a list collection and vice versa?
+  lists allow duplications
+  sets do not allow duplications
+  maps require a key value pair, while lists dont
+What are three differences between abstract classes and interfaces?
+  abstract 
+    has methods that are there but not defined
+    abstract cannot be implemented
+    abstract cannot b
+    abstract must be extended
+  interfaces
+    has methods that are defined
+    can be implemented
+    vars in java have a default final
+    interfaces must be implemented
+What are annotations and what are some examples of why to use them?
+  info about info
+  they help programmer and compiler about what to worry about and implement the program
 
 MVP - Minium Viable Product
 Brendan Eich, founded javascript and co-founded Mozilla.
@@ -399,6 +437,8 @@ Java
     bool - false
   Constants are defined with 'final' keyword. In JS it was 'const'
   Camel case is also called Pascal Case.
+  @annotations - Help Java make compiling decisions. 
+    With inheritance, it tells java (@override) to use a specific method. Instead of Java evaluating and making a decision. 
   Casting
     Converting one datatype to another
     Implicit casting 
@@ -478,11 +518,32 @@ Java
   Polymorphism - means having many forms
     Create getters and setters everytime you create a new property
     Always create a constructor for every class you create
+    Why would you use polymorphism? 
+      To treat every single instance the same way. 
   Final - keyword prevents further inheritance
     Final on a method - prevents them from being overridden
     Final on a variable - prevents them from being reassigned
-
-
+  Abstract classes - Some structure, but not have some shape or weight
+    Hiding implementation details from the user
+    serve as a superclass, but cannot be directly instantiated
+    classes dont have a body.
+    basically a rule set for subclasses.
+    Abstract methods cannot fit into non-abstract classes.
+  Interfaces 
+    Most likely more interfaces than abstract claasses
+    Interfaces are always public by default.
+    Methods are always public by default.
+    Actions that multiple classes could use (verbs)
+    'An addition of what I can do'.
+    Implement the interface you have to implement the methods. 
+      'how am i being sassy'
+      use @override annotations
+    Can implement multiple interfaces. 
+    actual implementation of the method, it has to be public.
+      within the child, that implements the interface. 
+  FileIO
+    java.io - older package from the 90's
+    java.nio - newer package since Java 7. 
 
 
 right click on directory
@@ -525,28 +586,6 @@ Java Inheritance conclusions so far...
  Engineer
   is exteded by JuniorEngineer
  etc.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 talk about encapsulation in curriculum.
