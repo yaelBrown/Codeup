@@ -13,6 +13,20 @@ These are the links to book us for one on one meetings. Try to book meetings fir
   Daniel: https://app.hubspot.com/meetings/daniel175
   Fernando: https://app.hubspot.com/meetings/fernando19
 
+Cognitive Overhead = easier
+Shadowing (in the java certification test)
+throws - error handling is responsiblity of the calling code
+Java Bean - class that has private properties and only getters and setters
+
+Alan Kay - Inventor of OOP
+James Gosling - Inventor of Java
+
+Methods are verbs and verb phrases.
+  Use terminology to reduce cognitive overhead
+Classes/Objects are our proper nouns like User, Transaction, Accounts, SupportRequest
+properties on our objects are lil' nouns
+interfaces allow us adverbs/adjectives
+
 Pair up with your neighbor and take turns interviewing each other with the following questions:
 
   What draws you to coding and web development as a career?
