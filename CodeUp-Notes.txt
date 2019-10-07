@@ -579,6 +579,22 @@ Java
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         </properties>
+  JUnit
+    /Test/Java/ folder for tests
+    Every test requires a method and every method requires an @annotation
+    Have the build inside of the POM file
+    Add imports
+      import org.junit.Test;
+      import static org.junit.Assert.*;
+    assertEquals() is overloaded
+      Use for primitive types
+    For every assertEquals theres a assertNotEquals
+    Click the test to run speciific test
+    'Going from red', red is the failing test or something not existing. 
+    Test something with nothing, zero, one, or many
+    Easier to clean your room when you have less things in your room.
+    Happy path, not so happy path, really bad path.
+
 
 right click on directory
 mark directory as : sources root
