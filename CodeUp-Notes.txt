@@ -558,7 +558,27 @@ Java
   FileIO
     java.io - older package from the 90's
     java.nio - newer package since Java 7. 
-
+  Dependencies
+    Guava - Google Java Libraries
+      https://github.com/google/guava/wiki
+    Spring Framework uses Maven by default
+    Gradle - uses JSON files
+    Maven (Apache) - uses XML files
+      Gives order and structure
+    GroupID - Name of the packages
+      Start with reverse of the name
+      com.codeup.blog
+    ArtifactID - Name of package
+      blog
+    POM.xml - Manager of the Application/Project.
+      File you would have all the dependencies in
+      POM - Project Object Model
+      <dependencies> -> <dependency> ... </dependencies>
+      Maven Compiler Version POM
+        <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        </properties>
 
 right click on directory
 mark directory as : sources root
