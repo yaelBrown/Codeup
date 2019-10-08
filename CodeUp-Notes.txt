@@ -594,6 +594,16 @@ Java
     Test something with nothing, zero, one, or many
     Easier to clean your room when you have less things in your room.
     Happy path, not so happy path, really bad path.
+    Assert Methods (junit docs) - https://junit.org/junit4/javadoc/4.12/org/junit/Assert.html
+    TDD is dynamic documentation
+    Delta - is the margin of error.
+      Some cases you don't want to check for exact value. 
+      Rocket Science for example you would. 
+      Data Science people will tell you that it's not a good idea. 
+      Read Junit docs on delta.
+        The delta value is indeed the "error" or "uncertainty" allowed in the comparison. Comparing floating point numbers is tricky -- exact equality is hard to come by in many cases.
+        It's quite common for the delta to be much smaller than the actual values -- for no particular reason, I generally use 1e-8, and this works well.
+
 
 
 right click on directory
