@@ -606,10 +606,14 @@ Java
     Integration test - Tests the whole application
 MySQL
   1 user, 1 db per app. 
+  Migration file - File that creates tables.
+  Seeder file - Will populate the table with records.
+  Datatypes in Java and Mysql are not one to one. 
   mysql --version - see the version of installed mysql
   mysql.server - starts mysql server
   mysql.server status - Shows the status of the sql server
   mysql -u root -p - Login to your mysql client
+  mysql -u root -p -t < filename.sql - Runs the file in the sql command prompts
   mysql>
     help - shows commands that you can run
     help contents - shows the topics (like table of contents)
@@ -631,7 +635,20 @@ MySQL
     USE [db name] - Use that particular database name
     DROP DATABASE [name of db] - Deletes database
     DROP DATABASE IF EXISTS [name of db] - Drops the database if it does exists
-
+    SHOW TABLES - Shows all tables
+    DESCRIBE [table name] - Shows columns and rows of all the tables.
+    CREATE TABLE [table name] - Creates a table
+      Mysql datatypes - http://www.mysqltutorial.org/mysql-data-types.aspx
+      Math with different datatypes
+      bigint - Better for saving phone numbers
+      int 
+        [column name] MEDIUMINT UNSIGNED - unsigned frees up more memory
+      floats/double - Not for money, certain number of precision not exact number
+      decimal - Preferred for Money
+        DECIMAL(10,2) - 9999999.22
+          10 is the total digits before the decimal place
+          2 after the decimal place
+    DROP TABLE [table name] - Removes table
 
 
 
@@ -788,4 +805,23 @@ Format client output...
 ***Exercise
 
 
+Dangers of float/double for money... https://www.sitepoint.com/community/t/mysql-why-not-double-or-float-for-storing-money/195731
+ Short explanation of floating point numbers... https://blog.penjee.com/what-are-floating-point-errors-answered/
+ Video explaining floating point numbers... https://www.youtube.com/watch?v=PZRI1IfStY0
+
+Dangers of float/double for money... https://www.sitepoint.com/community/t/mysql-why-not-double-or-float-for-storing-money/195731
+ Short explanation of floating point numbers... https://blog.penjee.com/what-are-floating-point-errors-answered/
+ Video explaining floating point numbers... https://www.youtube.com/watch?v=PZRI1IfStY0
+
+
+
+
+
+
+
+
+
+
+
 ++++++++++++++++++ talk about encapsulation in curriculum. +++++++++++++++++++++++
+++++++++++++++++++ better feedback for grades (faster). ++++++++++++++++++++++++++
