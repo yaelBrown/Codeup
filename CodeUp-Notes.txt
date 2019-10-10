@@ -605,7 +605,11 @@ Java
         It's quite common for the delta to be much smaller than the actual values -- for no particular reason, I generally use 1e-8, and this works well.
     Integration test - Tests the whole application
 MySQL
+  Documentation - https://dev.mysql.com/doc/refman/8.0/en/
+  When copying sql code, white space breaks the sql code.
+    Copy as plain text
   1 user, 1 db per app. 
+  Data plural is Datum
   Migration file - File that creates tables.
   Seeder file - Will populate the table with records.
   Datatypes in Java and Mysql are not one to one. 
@@ -626,6 +630,7 @@ MySQL
     SELECT user, host FROM mysql.user - list's all users
     CREATE USER '[usr]'@'[ip address]' IDENTIFIED BY '[password]' - Creates a user on the database you specified by IP address
     GRANT ALL ON [name of db].[name of table] TO '[username]'@'[address]' - Gives all permissions of that table to that db to that specific username at that specific address
+      List of privleges - https://dev.mysql.com/doc/refman/5.7/en/privileges-provided.html#idm139711220094800
     DROP USEr '[usr]'@'[ip address]' - Removes users
     CREATE DATABASE [name of db] - Create a database
     CREATE DATABASE IF NOT EXISTS [name of db] - Create a database if one does not exist
@@ -649,8 +654,25 @@ MySQL
           10 is the total digits before the decimal place
           2 after the decimal place
     DROP TABLE [table name] - Removes table
-
-
+    ALTER TABLE - make changes to tables
+    SOURCE [.sql file location] - Run sql scripts while already being logged in.
+    INSERT INTO [db name]([column name], [column name], [column name]) 
+      VALUES ([content], [content], [content]) - Adds data to database.
+        '' - escapes apostrophe's. "can''t"
+        \' - also escapes apostrophe's. "can\'t"
+    SELECT * FROM [db name] - Shows everything in the database
+    SELECT [column] AS '[name of results]' FROM [db name] WHERE [column name] = '[String' - Creates a table with the custom title of whatever you put as [name of results]
+      Called an 'AS clause'
+    SELECT * FROM [db name] WHERE id = 1 - Will select all columns for entry with the ID of one.
+    SELECT * FROM [db name] WHERE [column name] LIKE '%[query]' - Similar to .contains() in java % are wildcards, pattern matching
+    SELECT * FROM [db name] WHERE [column name] IS NULL - can be is null or is not null, 
+    SELECT [column name], [column name] FROM [db name] - selects specific columns with all users from db
+    UPDATE [db name] SET [column name] = 'change', [column name] = 'change' WHERE id = [#] - Makes 2 column updates to specified column id.
+    REMOVE * FROM [db name] WHERE id = [#] - Removes a item with a id matches specified number
+    TRUNCATE - Removes all the values from the table. 
+  mysqldump -u username -p dbname > dbexport.sql - Exports database to sql file
+    Reference: https://www.a2hosting.com/kb/developer-corner/mysql/import-and-export-a-mysql-database#MySQL-Import-DatabaseMethod-2.3A-Use-the-emmysqlem-program
+  mysql -u username -p dbname < dbexport.sql - Will import that file
 
 
 
@@ -666,8 +688,8 @@ mark directory as : sources root
 
 extra study
   Static references (Java)
-  promises
-  sets
+  promises (js)
+  sets (js)
 
 ================================= THE X Y Z OF CREATING A DOM EXERCISE
 If the user does x, y will change in z way.
@@ -724,15 +746,6 @@ In Java III...
   1) How to make an application connect to a database
   2) How to store/manipulate data in a database based on front-end requests using MVC separation
   3) How to serve data from a database to a client using MVC separation
-
-
-
-
-
-
-
-
-
 
 
 ================================= INTRO TO MYSQL
