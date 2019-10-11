@@ -111,6 +111,10 @@ Java Warmup
   Parameter
     ?
 
+Joda Time (java dependency)
+  https://www.joda.org/joda-time/
+
+
 ================================= JAVA II REVIEW WARM UP
 Define the following terms and cite a specific example for each...
  Encapsulation
@@ -642,6 +646,9 @@ MySQL
     \g - creates a readable list
     page less - creates pages for the information instead of spamming everything at you
     nopager - turns pager shit off
+    SELECT NOW() - Shows mysql server current date and time
+    SELECT CURDATE() - SHows current date but not the time
+    SELECT CURTIME() - Shows current time but not the date
     SELECT current_user - shows current user
     SELECT user, host FROM mysql.user - list's all users
     CREATE USER '[usr]'@'[ip address]' IDENTIFIED BY '[password]' - Creates a user on the database you specified by IP address
@@ -695,6 +702,7 @@ MySQL
     SELECT * FROM [db name] WHERE [column name] IS NULL - can be is null or is not null, 
     SELECT [column name], [column name] FROM [db name] - selects specific columns with all users from db
     SELECT CONCAT([column name], ' ', [column name]) AS '[Name for the column to display]', [column name] FROM [db name] - Will concatenate 2 columns in one column and display it under the name you specify. 
+      Using CONCAT_WS('[seperator]', '[column name]'...) - Uses a word seperator with the CONCAT command.
     SELECT * FROM [db name] ORDER BY [column name] ASC - Sorts everything ascending by specified column
       DESC - is descending
       Leaving out ASC and DESC sorts ASC by default.
