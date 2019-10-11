@@ -608,11 +608,27 @@ MySQL
   Documentation - https://dev.mysql.com/doc/refman/8.0/en/
   When copying sql code, white space breaks the sql code.
     Copy as plain text
-  1 user, 1 db per app. 
+  1 user, 1 db per app.
+  Have another account with equal access to Root to help root out.
   Data plural is Datum
   Migration file - File that creates tables.
   Seeder file - Will populate the table with records.
-  Datatypes in Java and Mysql are not one to one. 
+  mysqldump -u username -p dbname > dbexport.sql - Exports database to sql file
+    Reference: https://www.a2hosting.com/kb/developer-corner/mysql/import-and-export-a-mysql-database#MySQL-Import-DatabaseMethod-2.3A-Use-the-emmysqlem-program
+  mysql -u username -p dbname < dbexport.sql - Will import that file
+  Datatypes in Java and Mysql are not one to one.
+  Table join can query data from multiple tables
+  Docker containers can run mysql inside of it
+  terminal install via linux package manager
+  on a server can install with cpanel
+  MySQL workbench - GUI for managing the database
+  mariaDB a superset of mysql.
+  No need for flush privledges, assigned privs are effective immediately. 
+    Not sure what flush privs does.
+  Never put plain text into database for passwords
+    Always want to hash the password
+  ctrl+enter - runs commands within workbench
+  Default port 3306 
   mysql --version - see the version of installed mysql
   mysql.server - starts mysql server
   mysql.server status - Shows the status of the sql server
@@ -631,6 +647,7 @@ MySQL
     CREATE USER '[usr]'@'[ip address]' IDENTIFIED BY '[password]' - Creates a user on the database you specified by IP address
     GRANT ALL ON [name of db].[name of table] TO '[username]'@'[address]' - Gives all permissions of that table to that db to that specific username at that specific address
       List of privleges - https://dev.mysql.com/doc/refman/5.7/en/privileges-provided.html#idm139711220094800
+    SHOW GRANTS FOR '[username]'@'[address]' - Shows the privledges for any user
     DROP USEr '[usr]'@'[ip address]' - Removes users
     CREATE DATABASE [name of db] - Create a database
     CREATE DATABASE IF NOT EXISTS [name of db] - Create a database if one does not exist
@@ -655,24 +672,36 @@ MySQL
           2 after the decimal place
     DROP TABLE [table name] - Removes table
     ALTER TABLE - make changes to tables
+      ALTER TABLE [table name] ADD [column name to add] [datatype] - Adds a column to the table. 
+      ALTER TABLE [table name] MODIFY COLUMN [column name] [datatype] - Modifies a column on the table. 
     SOURCE [.sql file location] - Run sql scripts while already being logged in.
     INSERT INTO [db name]([column name], [column name], [column name]) 
       VALUES ([content], [content], [content]) - Adds data to database.
         '' - escapes apostrophe's. "can''t"
         \' - also escapes apostrophe's. "can\'t"
     SELECT * FROM [db name] - Shows everything in the database
+      Check the first, check the middle, and check the last
+    SELECT * FROM [db name] LIMIT 10 - Shows the first 10 entries in db.
     SELECT [column] AS '[name of results]' FROM [db name] WHERE [column name] = '[String' - Creates a table with the custom title of whatever you put as [name of results]
       Called an 'AS clause'
     SELECT * FROM [db name] WHERE id = 1 - Will select all columns for entry with the ID of one.
+    SELECT * FROM [db name] WHERE [column name] IN ('[query]', '[query]', '[query]') - Search for multiple queries
     SELECT * FROM [db name] WHERE [column name] LIKE '%[query]' - Similar to .contains() in java % are wildcards, pattern matching
+      NOT LIKE - Will give us opposite, what does not equal the value searched.
+      When doing like whatever is infront of % that's what it will search 'what starts with ...'. 
+      Whatever is after the % 'what ends with...'
+      '%[something]%' means anything can before and anything can be after
+    SELECT * FROM [db name] WHERE [column name] BETWEEN [parameter] AND [paramenter] - Displays users that meet criteria between the two parameters
     SELECT * FROM [db name] WHERE [column name] IS NULL - can be is null or is not null, 
     SELECT [column name], [column name] FROM [db name] - selects specific columns with all users from db
+    SELECT CONCAT([column name], ' ', [column name]) AS '[Name for the column to display]', [column name] FROM [db name] - Will concatenate 2 columns in one column and display it under the name you specify. 
+    SELECT * FROM [db name] ORDER BY [column name] ASC - Sorts everything ascending by specified column
+      DESC - is descending
+      Leaving out ASC and DESC sorts ASC by default.
     UPDATE [db name] SET [column name] = 'change', [column name] = 'change' WHERE id = [#] - Makes 2 column updates to specified column id.
     REMOVE * FROM [db name] WHERE id = [#] - Removes a item with a id matches specified number
     TRUNCATE - Removes all the values from the table. 
-  mysqldump -u username -p dbname > dbexport.sql - Exports database to sql file
-    Reference: https://www.a2hosting.com/kb/developer-corner/mysql/import-and-export-a-mysql-database#MySQL-Import-DatabaseMethod-2.3A-Use-the-emmysqlem-program
-  mysql -u username -p dbname < dbexport.sql - Will import that file
+
 
 
 
