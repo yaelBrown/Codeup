@@ -708,7 +708,9 @@ MySQL
       Leaving out ASC and DESC sorts ASC by default.
     UPDATE [db name] SET [column name] = 'change', [column name] = 'change' WHERE id = [#] - Makes 2 column updates to specified column id.
     REMOVE * FROM [db name] WHERE id = [#] - Removes a item with a id matches specified number
-    TRUNCATE - Removes all the values from the table. 
+    TRUNCATE - Removes all the values from the table.
+    SELECT [column name] FROM [table] GROUP BY [column name] [ASC|DESC] - Will do the same thing as order by but on show unique occurances. 
+      Similar to distinct.
 
 
 
