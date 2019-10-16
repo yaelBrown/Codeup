@@ -633,6 +633,8 @@ MySQL
     Always want to hash the password
   ctrl+enter - runs commands within workbench
   Default port 3306 
+  Can include the primary key keyword in the same line as the primary key. When creating the table.
+    "id int unsigned auto_increment primary key"
   mysql --version - see the version of installed mysql
   mysql.server - starts mysql server
   mysql.server status - Shows the status of the sql server
@@ -711,6 +713,10 @@ MySQL
     TRUNCATE - Removes all the values from the table.
     SELECT [column name] FROM [table] GROUP BY [column name] [ASC|DESC] - Will do the same thing as order by but on show unique occurances. 
       Similar to distinct.
+    ALTER TABLE [table name] ADD [index] ([column name]) - Adds a index to column
+    ALTER TABLE [table name] DROP INDEX [column name] - Removes indexes such as 'unique from columns'
+    SELECT [fq.column name], [fq.column name] From [child dbName] Join [owners] on [parent.primary key] = [child.foreign key] - Joins database, to get results of other data. 
+      can use group by, order by with join.
 
 
 
@@ -729,6 +735,11 @@ extra study
   Static references (Java)
   promises (js)
   sets (js)
+  foreign key (mysql)
+  joins (mysql)
+  references (mysql)
+  functions (mysql)
+  group by (mysql)
 
 ================================= THE X Y Z OF CREATING A DOM EXERCISE
 If the user does x, y will change in z way.
