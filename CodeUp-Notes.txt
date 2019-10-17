@@ -43,7 +43,8 @@ PB&J SANDWICH
   Group every 4-8 instructions in a named block (paragraph), relating to one main concern.
   Aim for 20+ instructions  
 
-What is concatenation?
+Javascript Warmup
+  What is concatenation?
   What are some significant characteristics of the JavaScript language?
     High Level language
     Loosely typed 
@@ -147,6 +148,7 @@ MVP - Minium Viable Product
 Brendan Eich, founded javascript and co-founded Mozilla.
 ECMA - European Computer Manufacturers Association
 this().is().method().chaining();
+ERD - Entity Relationship Diagram
 
 Good interview examples: 
   Sophies html/css/js analogy
@@ -717,6 +719,8 @@ MySQL
     ALTER TABLE [table name] DROP INDEX [column name] - Removes indexes such as 'unique from columns'
     SELECT [fq.column name], [fq.column name] From [child dbName] Join [owners] on [parent.primary key] = [child.foreign key] - Joins database, to get results of other data. 
       can use group by, order by with join.
+    SUBQUERY - a nested select within another query
+  Associative table connects 2 tables using foreign keys. 
 
 
 
@@ -740,6 +744,38 @@ extra study
   references (mysql)
   functions (mysql)
   group by (mysql)
+
+
+
+
+
+
+
+
+
+
+
+================================= DATABASE DESIGN MINI EXERCISE 1
+For each scenerio, select the best relationship type and why:
+ - in a dating app: users and user_profiles
+  1 - 1
+ - in an online marketplace: orders and products
+  1 - m
+ - in a blog application: users and posts
+  1 - m
+ - in a social media app: users and groups
+  1 - m users in the group, one user can create multiple groups
+  many-to-many because a user may belong to many groups and a group may have many users
+ - in an app for professional networking: businesses and addresses
+  1 - m one biz can have multiple addresses
+ - in a dog walking app: pet_records and pet_owners  
+  m - m ?
+  one-to-many if only one pet owner may own pets or many-to-many if multiple owners own the same pet (maybe the app allows family members users and or historical owners of a pet if ownership transferred over time)
+
+
+
+
+
 
 ================================= THE X Y Z OF CREATING A DOM EXERCISE
 If the user does x, y will change in z way.
