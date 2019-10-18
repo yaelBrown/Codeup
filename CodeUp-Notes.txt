@@ -269,6 +269,8 @@ IntelliJ
 
 HTML
   HTML - Provides Structure for Website
+    HyperText Markup Language
+  HTTP - HyperText Transport Protocol
   Semantics is the study of the meanings of words and phrases in a language.
   Semantic elements = elements with a meaning.
     Examples: <form>, <table>, and <article>
@@ -610,6 +612,9 @@ Java
         The delta value is indeed the "error" or "uncertainty" allowed in the comparison. Comparing floating point numbers is tricky -- exact equality is hard to come by in many cases.
         It's quite common for the delta to be much smaller than the actual values -- for no particular reason, I generally use 1e-8, and this works well.
     Integration test - Tests the whole application
+  Java III 
+
+
 MySQL
   Documentation - https://dev.mysql.com/doc/refman/8.0/en/
   When copying sql code, white space breaks the sql code.
@@ -774,8 +779,55 @@ For each scenerio, select the best relationship type and why:
 
 
 
+================================= DATABASE DESIGN MINI EXERCISE 2
+Using pencil and paper, a whiteboard, or draw.io, draft an ERD for each of the the following scenerios from the previous exercise:
+ - in a social media app: users and groups
+ - in a blog application: users and posts
 
 
+
+ users
+  pk - id
+  username
+  pw
+
+ users_groups
+  fk - group_id
+  fk - user_id 
+
+ groups
+  pk - id
+  fk - owner_id
+  group_name
+
+
+1 yael
+2 louis
+
+1 ilovepugs
+2 spiderman
+
+
+user relations
+1 | 1
+1 | 2
+2 | 1
+2 | 2
+
+============================
+
+users
+  pk - id
+  username
+
+users_posts
+  fk - user_id
+  fk - post_id
+
+posts 
+  pk - id
+  posts_title
+  posts_text
 
 ================================= THE X Y Z OF CREATING A DOM EXERCISE
 If the user does x, y will change in z way.

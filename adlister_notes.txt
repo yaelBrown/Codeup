@@ -1,0 +1,21 @@
+Notes for Adlister design
+
+Users
+  pk - id
+  email
+  password
+
+Ads
+  pk - id
+  title
+  description
+  author_id
+
+Ads_Category
+  fk - ads_id
+  fk - cat_id
+
+Category
+  pk - id
+  cat_name
+  cat_description
