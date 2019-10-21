@@ -21,6 +21,18 @@ Java Bean - class that has private properties and only getters and setters
 Alan Kay - Inventor of OOP
 James Gosling - Inventor of Java
 
+Ceres Developer Day Schedule
+9:00 AM - 12:00 > Refine and rehearse
+12:00 PM - 1:30 PM > LUNCH
+1:30 PM -2:30 PM > YOU WILL BE ON TIME AND YOU WILL BE IN YOUR PRESENTING ATTIRE! We will do a dry run through of your Capstone Presentations (large classroom on 3)
+2:30 PM > Cohort team photo in front of Codeup
+2:40 PM - 3:00 PM > Refine and rehearse
+3:00 PM - 3:30 PM > Arrival of guests
+3:30 PM - 4:30 PM > Developer Day begins with Capstone Presentations
+4:30 PM - 5:30 PM > Students/Employers -reverse job fair/interviews with employers partners in the back area of 3rd floor
+5:30 PM > Certificate of Completion and individual photos are presented followed by Cohort team photo
+6:30 PM > Developer Day Ends
+
 Methods are verbs and verb phrases.
   Use terminology to reduce cognitive overhead
 Classes/Objects are our proper nouns like User, Transaction, Accounts, SupportRequest
@@ -612,7 +624,8 @@ Java
         The delta value is indeed the "error" or "uncertainty" allowed in the comparison. Comparing floating point numbers is tricky -- exact equality is hard to come by in many cases.
         It's quite common for the delta to be much smaller than the actual values -- for no particular reason, I generally use 1e-8, and this works well.
     Integration test - Tests the whole application
-  Java III 
+  Java III
+    Daniels Handout - https://java.codeup.com/handouts/java-iii/faq/
 
 
 MySQL
