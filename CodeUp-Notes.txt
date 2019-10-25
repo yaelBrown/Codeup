@@ -764,7 +764,7 @@ extra study
   group by (mysql)
 
 
-
+REST - stands for representational state transfer, and software architectures that conform to the principles of REST are referred to as RESTful. RESTful web services are web-based applications that use the HTTP protocol to access, modify, or delete information contained within a resource.
 
 
 
@@ -979,13 +979,28 @@ Dangers of float/double for money... https://www.sitepoint.com/community/t/mysql
 
 
 
+================================= SESSIONS and COOKIES
+Cookie:
+ - a key that identifies a client browser to a server (exists client side)
+ - generated and given to a browser when first visiting a site
+ - normally a long string that is the key to a session object
+ - may persist until browser cookies are deleted or session times out server side
+Session = a way to persist variables across multiple requests:
+ - HTTP requests are "Stateless" (information does not persist between multiple requests); Sessions make our web apps "Stateful"
+ - store items in checkout basket
+ - store list of favorites
+ - login / logout to a site
 
 
 
+ ================================= PASSWORDS
+Recommended Resources:
+Hashing/salts/bcrypt: http://dustwell.com/how-to-handle-passwords-bcrypt.html
+Hashing: https://www.youtube.com/watch?v=sjEeqtZ7Tw4
+Terms:
+hashing -------- a one way scrambling of a string into another string using a consistent process
+bcrypt --------- a password hashing function that deliberately uses processor intensive (slow) algorithms
+salt ----------- a random generated string of characters, added to the raw password before hashing
+log_rounds ----- a measure of the computational cost to generate a final hashed output (use 12)
+jBcrypt -------- an implementation of bcrypt for Java that may be imported into Java projects
 
-
-
-
-
-++++++++++++++++++ talk about encapsulation in curriculum. +++++++++++++++++++++++
-++++++++++++++++++ better feedback for grades (faster). ++++++++++++++++++++++++++
