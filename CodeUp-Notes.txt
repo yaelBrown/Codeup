@@ -754,6 +754,11 @@ right click on directory
 mark directory as : sources root
 
 extra study
+  Checked and unchecked exceptions (Java)
+    unchecked - are mostly exceptions that are built into the Java language, and do not need to be explicitly dealt with.
+    checked - must be handled in our code, either with a try-catch, or by declaring them in the method signature with the throws keyword
+      Checked exceptions are enforced by the compiler, meaning that if a checked exception is not handled, the code will not compile.
+    error - 
   Static references (Java)
   promises (js)
   sets (js)
