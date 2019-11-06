@@ -740,7 +740,16 @@ MySQL
     SUBQUERY - a nested select within another query
   Associative table connects 2 tables using foreign keys. 
 
-
+Spring MVC/Spring Boot
+  Much easier
+  JPA - A Java ORM (Object Relational Mapper) for how to interact with persistence in an application
+  ORM - Converting objects into DB table records and vice versa
+  Spring Data - A project of the Spring Framework concerning data management
+  Spring Data JPA - a subproject (module) defining how JPA is integrated into Spring
+  Hibernate - Specific implementation using for JPA. Supported by Spring Data JPA
+  Repositories - interfaces that further abstract from DAOS snd contain methods to interact with data
+    Control the CRUD functionalities.
+  
 
 
 
