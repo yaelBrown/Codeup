@@ -749,11 +749,12 @@ Spring MVC/Spring Boot
   Hibernate - Specific implementation using for JPA. Supported by Spring Data JPA
   Repositories - interfaces that further abstract from DAOS snd contain methods to interact with data
     Control the CRUD functionalities.
-  
-
-
-
-
+  Don't need to create migration file. 
+    With the right annotations, spring creates the migration automatically.
+  Dependency Injection - Saves the trouble of creating classes
+    Spring decides when to instantiate object
+    Spring will handle when to create the instances for us
+  Spring uses HQL, Hibernate Query Language
 
 
 
@@ -780,7 +781,7 @@ extra study
 
 REST - stands for representational state transfer, and software architectures that conform to the principles of REST are referred to as RESTful. RESTful web services are web-based applications that use the HTTP protocol to access, modify, or delete information contained within a resource.
 
-
+Mockaroo - is used to create random seeder data. 
 
 
 
