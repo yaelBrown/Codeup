@@ -755,6 +755,7 @@ Spring MVC/Spring Boot
     Spring decides when to instantiate object
     Spring will handle when to create the instances for us
   Spring uses HQL, Hibernate Query Language
+  Spring Security - https://docs.spring.io/spring-security/site/docs/5.1.6.RELEASE/reference/html/jc.html#jc-httpsecurity
 
 
 
@@ -784,6 +785,7 @@ REST - stands for representational state transfer, and software architectures th
 Mockaroo - is used to create random seeder data. 
 
 
+Reference for creating methods with the correct naming convention - https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.query-creation
 
 
 
