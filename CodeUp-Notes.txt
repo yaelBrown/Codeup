@@ -760,6 +760,16 @@ Spring MVC/Spring Boot
 
 
 
+Unit Tests - Test specific units (small parts of application)
+Integration Tests - Test the whole application. (Multiple units at once)
+Benefits of testing
+  provides timely design validation, negotiation and feedback (solving small problems before they get bigger)
+  provides an executable documentation and acceptance criteria
+  verifies the independent parts of a whole system
+  generates a healthy change management
+  provides a clear troubleshooting tactic
+  provides a solid new team member onboarding and training process
+
 
 right click on directory
 mark directory as : sources root
